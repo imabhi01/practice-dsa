@@ -1,3 +1,5 @@
+# Class definition and constructor __init__ in python
+
 class Person:
     def __init__(self, firstname, lastname):
         self.firstname = firstname

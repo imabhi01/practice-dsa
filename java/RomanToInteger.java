@@ -3,7 +3,7 @@ import java.util.Map;
 
 class RomanToInteger {
     public void romantoInt(String s){
-        int len = s.length();
+        // int len = s.length();
         Map<String, Integer> romanMap = new HashMap<>();
         romanMap.put("I", 1);
         romanMap.put("V", 5);
@@ -11,13 +11,8 @@ class RomanToInteger {
         romanMap.put("L", 50);
         romanMap.put("C", 1);
         System.out.print(romanMap);
-        // // Example: Print the HashMap
-        // for (Map.Entry<String, Integer> entry : romanMap.entrySet()) {
-        //     System.out.println(entry.getKey() + "=" + entry.getValue());
-        // }
-        
     }
-
+    
     public static void main(String[] args){
         String st = "III";
         RomanToInteger obj = new RomanToInteger();
